@@ -1,0 +1,98 @@
+
+
+.outer-shell {
+	background-color: gray;
+	position: relative;
+	height: 350px;
+	width: 550px;
+	/*margin: 0;
+	padding: 0;*/
+}
+
+.inner-shell {
+	background-color: black;
+	position: absolute;
+	height: 250px;
+	width: 450px;
+	margin-left: -225px;
+	margin-top: -125px;
+	top: 50%;
+	left: 50%;
+}
+
+.clock-screen {
+	background-color: darkred;
+	position: absolute;
+	height: 80px;
+	width: 300px;
+	margin-left: -150px;
+	margin-top: -40px;
+	top: 50%;
+	left: 50%;
+}
+
+.am-pm {
+	color: white;
+	position: absolute;
+	top: 37%;
+	left: 9%;
+	font-size: 1.2em;
+}
+
+.auto {
+	color: white;
+	position: absolute;
+	top: 55%;
+	left: 4%;
+	font-size: 1.2em;
+}
+
+.indicator {
+	/*height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	background-color: red;
+	position: absolute;
+	top: 26%;
+	left: 18%;*/
+
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	background-color: red;
+	position: absolute;
+	top: 17%;
+	left: 2%;
+}
+
+.clock-text {
+	color: red;
+	font-family: verdana;
+	font-size: 5.5em;
+	top: 48%;
+	left: 8%;
+	position: absolute;
+	padding: 0;
+	line-height: 0;
+}
+
+.bottom-am {
+	color: white;
+	font-family: verdana;
+	font-size: 1em;
+	top: 68%;
+	left: 15%;
+	position: absolute;
+}
+
+.bottom-fm {
+	color: white;
+	font-family: verdana;
+	font-size: 1em;
+	top: 68%;
+	left: 15%;
+	position: absolute;
+}
+
+
+
